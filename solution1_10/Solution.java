@@ -1,4 +1,4 @@
-package daily_coding;
+package daily_coding.solution1_10;
 
 import java.util.Arrays;
 

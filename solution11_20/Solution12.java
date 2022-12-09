@@ -1,4 +1,4 @@
-package daily_coding;
+package daily_coding.solution11_20;
 
 import java.util.Arrays;
 //public static int[] reverseArr(int[] arr){

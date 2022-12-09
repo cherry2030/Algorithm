@@ -1,7 +1,6 @@
-package daily_coding;
+package daily_coding.solution11_20;
 
 import java.util.Arrays;
-import java.util.stream.Stream;
 
 public class Solution11 {
     public static String[] removeExtremes(String[] arr) {
