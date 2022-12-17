@@ -29,21 +29,22 @@ public class Solution17 {
     // 하지만 우리는 무한 루프를 돌 수 없기 때문에, 정밀도를 설정해야 한다.
     public static String computeSquareRoot2(int num) {
         double x = 1;
-        while( x*x != num){
+        double compare = (double) num;
+        double precision = 0.0001;
+        while(!(compare-precision < x*x && x*x < compare + precision)){
             if(x*x == num){
                 break;
             }
-            //
             x = (x + (num/x)) /2;
         }
         return String.format("%.2f", x);
     }
 
     public static void main(String[] args) {
-        String output = computeSquareRoot(9);
+        String output = computeSquareRoot2(9);
         System.out.println(output); // --> "3.00"
 
-        output = computeSquareRoot(6);
+        output = computeSquareRoot2(6);
         System.out.println(output); // --> "2.45"
     }
 }
