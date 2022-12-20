@@ -9,7 +9,7 @@ public class Solution23 {
         return fibonacci(num-1) + fibonacci(num-2);
     }
 
-    // dynamic with meoization: O(N) - 재귀 x
+    // dynamic with tabulation: O(N) - 재귀 x
     public static int fibonacci2(int num) {
         ArrayList<Integer> al = new ArrayList<>();
         al.add(0);

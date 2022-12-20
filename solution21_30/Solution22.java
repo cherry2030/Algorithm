@@ -11,18 +11,17 @@ public class Solution22 {
             for (int j = 0; j < arr.length - 1 - i; j++) {
                 if (arr[j] > arr[j + 1]) {
                     tmp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = tmp;
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tmp;
                     isSwapped = true;
                 }
             }
-            if(isSwapped==false) break;
+            if (isSwapped == false) break;
         }
         return arr;
     }
-
     public static void main(String[] args) {
-        int[] output = bubbleSort(new int[]{1, 2, 43, 100, 100, 21});
+        int[] output = bubbleSort(new int[]{112, 1, 2, 43, 100, 100, 21});
         System.out.println(Arrays.toString(output));
     }
 }
