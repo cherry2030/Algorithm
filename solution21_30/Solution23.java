@@ -20,7 +20,7 @@ public class Solution23 {
         return al.get(num);
     }
 
-    // dynamic with meoization: O(N) - 재귀 o
+    // dynamic with memoization: O(N) - 재귀 o
     public static int fibonacci3(int num) {
         ArrayList<Integer> al = new ArrayList<>();
         al.add(0);
