@@ -7,13 +7,12 @@ import java.util.ArrayList;
 public class Solution26 {
     public static ArrayList<String> dfs(tree node) {
         ArrayList<String> result = new ArrayList<>();
-        result.add(node.value);
+        result.add(node.getValue());
 
         ArrayList<tree> children = node.getChildrenNode();
         if(children!=null){
             for(int i=0;i<children.size();i++){
-                ArrayList<String> dfsList = dfs(children.get(i));
-                result.addAll(dfsList);
+                result.addAll(dfs(children.get(i)));
             }
         }
 
