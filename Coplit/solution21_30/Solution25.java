@@ -1,4 +1,4 @@
-package daily_coding.solution21_30;
+package daily_coding.Coplit.solution21_30;
 
 public class Solution25 {
     // O(N) - for문을 통해서 exponent번 곱하기

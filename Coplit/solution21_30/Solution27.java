@@ -1,6 +1,4 @@
-package daily_coding.solution21_30;
-
-import daily_coding.solution1_10.Solution;
+package daily_coding.Coplit.solution21_30;
 
 import java.util.ArrayList;
 import java.util.Deque;

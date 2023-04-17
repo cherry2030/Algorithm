@@ -1,4 +1,4 @@
-package daily_coding.solution21_30;
+package daily_coding.Coplit.solution21_30;
 
 import java.util.Arrays;
 import java.util.List;

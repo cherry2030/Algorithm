@@ -1,4 +1,4 @@
-package daily_coding.solution11_20;
+package daily_coding.Coplit.solution11_20;
 
 public class Solution18 {
     // 방법 1

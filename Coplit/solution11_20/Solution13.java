@@ -1,4 +1,4 @@
-package daily_coding.solution11_20;
+package daily_coding.Coplit.solution11_20;
 
 public class Solution13 {
     public static String readVertically(String[] arr) {

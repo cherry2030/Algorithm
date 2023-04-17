@@ -1,4 +1,4 @@
-package daily_coding.solution11_20;
+package daily_coding.Coplit.solution11_20;
 
 public class Solution17 {
     // 최대 소수점 둘째 짜리까지 구한 수를 문자열로 변환하여 출력합니다. (소수점 셋째 자리에서 반올림)

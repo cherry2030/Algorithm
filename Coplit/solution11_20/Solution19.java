@@ -1,6 +1,4 @@
-package daily_coding.solution11_20;
-
-import java.awt.desktop.AppForegroundListener;
+package daily_coding.Coplit.solution11_20;
 
 public class Solution19 {
     // 방법 1

@@ -1,4 +1,4 @@
-package daily_coding.solution21_30;
+package daily_coding.Coplit.solution21_30;
 
 public class Solution30 {
     // O(log N) - 이진 탐색
