@@ -1,4 +1,4 @@
-package daily_coding.Baekjoon.week1;
+package daily_coding.Baekjoon.week1.day1;
 
 import java.io.*;
 
