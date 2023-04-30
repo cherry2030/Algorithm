@@ -1,8 +1,10 @@
-package daily_coding;
+package daily_coding.Baekjoon.week2;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
-class Main{
+class 연결_요소의_개수{
     public static int count = 0; // 연결 요소의 수
     public static int[][] arr;   // 인접 행렬
     public static boolean[] visited;
