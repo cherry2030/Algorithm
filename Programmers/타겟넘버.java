@@ -1,7 +1,6 @@
-package daily_coding;
+package daily_coding.Programmers;
 
-class Main {
-
+public class 타겟넘버 {
     static int count=0;
 
     public static void main(String[] args) {
