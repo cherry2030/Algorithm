@@ -1,0 +1,10 @@
+-- 코드를 입력하세요
+-- 이름 중 두 번 이상 쓰인 이름과 해당 이름이 쓰인 횟수를 조회하는 SQL문
+-- 결과는 이름이 없는 동물은 집계에서 제외
+-- 이름 순으로 조회
+
+SELECT NAME, count(name) as count
+from ANIMAL_INS
+group by NAME
+having count(name) >= 2
+order by NAME
